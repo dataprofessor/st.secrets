@@ -32,9 +32,8 @@ Finally, we'll be displaying the stored secrets:
 st.write(st.secrets['message'])
 ```
 
-It should be noted that, secrets can be stored in Streamlit Cloud as shown in the screenshots below:
-
-![](https://github.com/dataprofessor/30DaysOfStreamlit/blob/master/content/images/035C3074-072B-4EF4-9159-48742B8DDD76.png)
+It should be noted that, secrets can be stored in Streamlit Cloud as shown in the screenshots shown below.
 
 ## Further reading
-
+- [Add secrets to your Streamlit apps](https://blog.streamlit.io/secrets-in-sharing-apps/)
+- [Secrets management](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
