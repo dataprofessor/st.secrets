@@ -34,6 +34,8 @@ st.write(st.secrets['message'])
 
 It should be noted that, secrets can be stored in Streamlit Cloud as shown in the screenshots shown below.
 
+If working locally, they can be stored in `.streamlit/secrets.toml`, but make sure to avoid uploading this to a GitHub repo when deploying the app.
+
 ## Further reading
 - [Add secrets to your Streamlit apps](https://blog.streamlit.io/secrets-in-sharing-apps/)
 - [Secrets management](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
