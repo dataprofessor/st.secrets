@@ -1,17 +1,19 @@
 # st.template
 
-`st.template` allows writing text and arguments to the Streamlit app.
+`st.secrets` you to store confidential information such as API keys, database passwords or other credentials.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.secrets/)
 
 ## Code
-Here's how to use st.write:
+Here's how to use st.secrets:
 ```python
 import streamlit as st
 
+st.header('st.secrets')
 
+st.write(st.secrets['message'])
 ```
 
 ## Line-by-line explanation
@@ -19,6 +21,18 @@ The very first thing to do when creating a Streamlit app is to start by importin
 ```python
 import streamlit as st
 ```
+
+This is followed by creating a header text for the app:
+```python
+st.header('st.secrets')
+```
+
+Finally, we'll be displaying the stored secrets:
+```python
+st.write(st.secrets['message'])
+```
+
+It should be noted that, secrets can be stored in Streamlit Cloud as shown in the screenshots below
 
 ## Further reading
 
