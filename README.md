@@ -1,6 +1,6 @@
 # st.secrets
 
-`st.secrets` you to store confidential information such as API keys, database passwords or other credentials.
+`st.secrets` allows you to store confidential information such as API keys, database passwords or other credentials.
 
 ## Demo app
 
