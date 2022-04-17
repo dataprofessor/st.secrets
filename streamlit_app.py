@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.header('st.secrets')
+st.title('st.secrets')
 
 st.write(st.secrets['message'])
